@@ -33,7 +33,7 @@
   margin-top: 2%;
   width: 40%;
 }
-
+/* 
 #coin div {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -44,7 +44,7 @@
     0 12px 20px -10px rgba(0, 0, 0, 0.4);
   box-shadow: inset 0 0 45px rgba(255, 255, 255, 0.3),
     0 12px 20px -10px rgba(0, 0, 0, 0.4);
-}
+} */
 
 #coin {
   transition: -webkit-transform 1s ease-in;
@@ -59,6 +59,7 @@
 .side-a {
   z-index: 100;
 }
+
 .side-b {
   -webkit-transform: rotateY(-180deg);
 }

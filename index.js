@@ -1,22 +1,14 @@
 const coin = document.querySelector('#coin')
-coin.onClick( () => flip())
+coin.addEventListener('click', () => flip())
 
-function flip = () => {
-  var flipResult = Math.random()
+const flip = () => {
+  let flipResult = Math.random()
+  coin.classList.remove('side-a')
+  setTimeout(function () {
+    if (flipResult <= 0.5) {
+      coin.classList.add = 'heads'
+    } else {
+      coin.classList.add = 'tails'
+    }
+  }, 100)
 }
-
-jQuery(document).ready(function ($) {
-  $('#coin').on('click', function () {
-   
-    $('#coin').removeClass()
-    setTimeout(function () {
-      if (flipResult <= 0.5) {
-        $('#coin').addClass('heads')
-        console.log('it is head')
-      } else {
-        $('#coin').addClass('tails')
-        console.log('it is tails')
-      }
-    }, 100)
-  })
-})
