@@ -1,3 +1,18 @@
 .home {
   background-color: #f31083;
 }
+
+.coin {
+  border-radius: 50%;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: auto;
+  margin-top: 1%;
+  border: 5px solid white;
+}
+
+.header {
+  color: white;
+  margin-left: 37%;
+  margin-right: auto;
+}
