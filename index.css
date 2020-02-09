@@ -3,12 +3,12 @@
 }
 
 .side-a {
-  border-radius: 50%;
-  width: 40%;
-  margin-left: 30%;
+  /* border-radius: 50%; */
+  width: 100%;
+  /* margin-left: 30%;
   margin-right: auto;
   margin-top: 1%;
-  border: 5px solid white;
+  border: 5px solid white; */
 }
 
 .side-b {
@@ -21,8 +21,7 @@
 
 .header {
   color: white;
-  margin-left: 37%;
-  margin-right: auto;
+  text-align: center;
 }
 
 .youtube {
