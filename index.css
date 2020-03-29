@@ -3,6 +3,14 @@
   margin: 0em;
 }
 
+a {
+  color: white;
+}
+
+.home-page-links {
+  color: black;
+}
+
 .side-a {
   /* border-radius: 50%; */
   width: 100%;
@@ -155,4 +163,20 @@
   left: 75%;
   transform: translate(-50%, -50%);
   color: black;
+}
+
+.navbar {
+  color: #f31083;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.link-text :hover {
+  color: #f31083;
 }
