@@ -6,11 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Crazy Ex-Girlfriend: An Homage</title>
     <link rel="stylesheet" type="text/css" href="../index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
     <script src="../index.js" defer></script>
   </head>
 
   <body class="home">
-    <h2 class="header">Season 4</h2>
+    <h2 class="header">
+      <div id="modal_button" class="modal_button">
+        Season 4
+      </div>
+    </h2>
+    <p>Very hard to get poop out of wicker</p>
+    <p>Hum hum I will rip off your mouth</p>
     <iframe
       src="https://giphy.com/embed/YlTmbwbeNas1mmmYPz"
       width="480"
@@ -35,9 +45,16 @@
       class="giphy-embed"
       allowfullscreen
     ></iframe>
-    <a href="../index.html">Home</a>
-    <a href="../season1/season_1.html">Season 1</a>
-    <a href="../season2/season_2.html">Season 2</a>
-    <a href="../season3/season_3.html">Season 3</a>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
+    <div class="navbar">
+      <a href="../index.html">Home</a>
+      <a href="../season1/season_1.html">Season 1</a>
+      <a href="../season2/season_2.html">Season 2</a>
+      <a href="../season3/season_3.html">Season 3</a>
+    </div>
   </body>
 </html>
