@@ -32,7 +32,7 @@ const modalImage = e => {
   modal.style.display = 'block'
   modalImg.src =
     'https://i.pinimg.com/originals/38/2c/55/382c55d97cdef0b260d7412a401df1a7.gif'
-  captionText.innerText = 'Im a bit griffindore'
+  captionText.innerText = '100% would hit that'
 }
 
 const closeSpan = e => {
