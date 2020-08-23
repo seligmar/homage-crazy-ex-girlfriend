@@ -4,7 +4,7 @@ const span = document.getElementsByClassName('close')[0]
 const modalImg = document.getElementById('img01')
 const captionText = document.querySelector('#caption')
 const img = document.getElementById('myImg')
-var modal = document.getElementById('myModal')
+const modal = document.getElementById('myModal')
 
 // coin.addEventListener('click', e => flip(e))
 modal_button.addEventListener('click', e => modalImage(e))
