@@ -10,6 +10,7 @@ const modal = document.getElementById('myModal')
 modal_button.addEventListener('click', e => modalImage(e))
 span.addEventListener('click', e => closeSpan(e))
 
+// konami code directly copied from: https://stackoverflow.com/questions/31626852/how-to-add-konami-code-in-a-website-based-on-html
 var allowedKeys = {
   37: 'left',
   38: 'up',
